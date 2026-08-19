@@ -1,0 +1,14 @@
+# Ignore uploaded user files
+uploads/documents/*
+!uploads/documents/.gitkeep
+uploads/photos/*
+!uploads/photos/.gitkeep
+uploads/diplomes/*
+!uploads/diplomes/.gitkeep
+
+# IDE and OS files
+.vscode/
+.idea/
+*.log
+Thumbs.db
+.DS_Store

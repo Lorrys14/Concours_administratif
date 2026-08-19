@@ -1,0 +1,80 @@
+body {
+    background-color: #f4f6f9;
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    color: #212529;
+}
+
+.hero {
+    background: linear-gradient(135deg, #0d6efd 0%, #0a4b9c 100%) !important;
+    color: #ffffff !important;
+    border-radius: 1rem;
+    box-shadow: 0 8px 24px rgba(13, 110, 253, 0.25);
+}
+
+.hero h1, .hero .display-4 {
+    color: #ffffff !important;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    font-weight: 800;
+}
+
+.hero p, .hero .lead {
+    color: #f1f5f9 !important;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+    border: 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.hover-shadow:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1) !important;
+}
+
+.stat {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.step .circle {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background: #e9ecef;
+    color: #6c757d;
+    font-weight: 600;
+}
+
+.step.active .circle {
+    background: #00843d;
+    color: #ffffff;
+}
+
+.table {
+    vertical-align: middle;
+}
+
+.badge {
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+
+.navbar-brand {
+    font-size: 1.15rem;
+    letter-spacing: 0.5px;
+}
+
+.min-vh-100-container {
+    min-height: calc(100vh - 160px);
+}
